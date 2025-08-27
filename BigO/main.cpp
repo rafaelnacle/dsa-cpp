@@ -2,24 +2,13 @@
 
 using namespace std;
 
-// Big O: Drop Non-Dominants
-// O(n² + n)
-// n² -> dominant term
-// n -> non dominant term (we drop the n because its insignificant)
-void printItems(int n) {
-    // O(n²)
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            cout << i << j << endl;
-        }
-    }
-
-    // O(n)
-    for (int k = 0; k < n; k++) {
-        cout << k << endl;
-    }
+// Big O: O(1)
+// even if you have n + n + n which technically is O(2) we simplify it to O(1)
+// This is the most efficient Big O possible.
+int addItems(int n) {
+    return n + n + n;
 }
 
 int main() {
-    printItems(10);
+    addItems(10);
 }
