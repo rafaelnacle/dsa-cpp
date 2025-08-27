@@ -1,0 +1,45 @@
+# Binários e objetos gerados
+**/*.o
+**/*.obj
+**/*.lo
+**/*.la
+**/*.a
+**/*.lib
+**/*.so
+**/*.dll
+**/*.dylib
+**/*.exe
+**/*.out
+**/*.app
+
+# Diretórios de build/output
+**/output/
+**/build/
+**/bin/
+**/dist/
+
+# Arquivos de debug
+**/*.pch
+**/*.pdb
+**/*.idb
+
+# Logs e temporários
+*.log
+*.tmp
+*.temp
+
+# Arquivos de IDEs (Visual Studio Code, CLion, etc.)
+.vscode/
+.idea/
+*.iml
+*.suo
+*.user
+*.userossc
+*.swp
+*.DS_Store
+
+# CMake gerados
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
