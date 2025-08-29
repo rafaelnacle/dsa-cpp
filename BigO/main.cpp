@@ -2,15 +2,13 @@
 
 using namespace std;
 
-// Big O: Vectors
-/*
-    Adding or removing an item to the end of the vector is O(1)
-    Adding or removing an item to the beginning of the vector is O(n)
-     -> The problem here is that the indexes need to change, while at the end don't
+// Big O: Notes Wrap up
+// O(n²)    -> Loop within a loop (less efficient)
+// O(n)     -> Proportional
+// O(log n) -> Divide and Conquer
+// O(1)     -> Constant
 
-    Looking up by value its also O(n)
-    Looking up by index is O(1)
-*/
+// We can use Big-O cheat-sheet website to check some time complexity graphics
 
 int main() {
 }
