@@ -2,17 +2,15 @@
 
 using namespace std;
 
-// Big O: O(a) O(b) = O(a + b)
-// if the for loop is nested it should be O(a * b)
-void printItems(int a, int b) {
-    for (int i = 0; i < a; i++) {
-        cout << i << endl;
-    }
+// Big O: Vectors
+/*
+    Adding or removing an item to the end of the vector is O(1)
+    Adding or removing an item to the beginning of the vector is O(n)
+     -> The problem here is that the indexes need to change, while at the end don't
 
-    for (int j = 0; j < b; j++) {
-        cout << j << endl;
-    }
-}
+    Looking up by value its also O(n)
+    Looking up by index is O(1)
+*/
 
 int main() {
 }
